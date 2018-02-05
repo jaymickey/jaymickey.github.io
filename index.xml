@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Josh Michielsen - Blog</title>
+    <title>Josh Michielsen (Jmickey)</title>
     <link>https://jaymickey.github.io/</link>
-    <description>Recent content on Josh Michielsen - Blog</description>
+    <description>Recent content on Josh Michielsen (Jmickey)</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	<atom:link href="https://jaymickey.github.io/index.xml" rel="self" type="application/rss+xml" />
