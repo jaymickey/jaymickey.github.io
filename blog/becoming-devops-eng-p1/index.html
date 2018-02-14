@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='Becoming a DevOps Engineer Introduction Broadly, DevOps refers to the re-modelling of IT culture to improve software delivery outcomes (e.g. speed, reliability, and stability) by fostering collaboration and shared objectives throughout all stages of the SDLC. The practical consequence of this ideological shift is the cumulation of a set of principles, practices, and tools which form the necessary foundation for DevOps to be successful within an organisation.
+The aim of this blog post isn&rsquo;t to provide yet another overview of what DevOps is and isn&rsquo;t; a quick search of Google will produce enough attempts at this to last the reader a lifetime (although this is my personal favourite).'>
+
+<meta property='og:title' content='Becoming a DevOps Engineer - Part 1 • Josh Michielsen'>
+<meta property='og:description' content='Becoming a DevOps Engineer Introduction Broadly, DevOps refers to the re-modelling of IT culture to improve software delivery outcomes (e.g. speed, reliability, and stability) by fostering collaboration and shared objectives throughout all stages of the SDLC. The practical consequence of this ideological shift is the cumulation of a set of principles, practices, and tools which form the necessary foundation for DevOps to be successful within an organisation.
+The aim of this blog post isn&rsquo;t to provide yet another overview of what DevOps is and isn&rsquo;t; a quick search of Google will produce enough attempts at this to last the reader a lifetime (although this is my personal favourite).'>
+<meta property='og:url' content='https://jaymickey.github.io/blog/becoming-devops-eng-p1/'>
+<meta property='og:site_name' content='Josh Michielsen (Jmickey)'>
+<meta property='og:type' content='article'><meta property='article:section' content='Blog'><meta property='article:published_time' content='2018-02-13T16:00:00&#43;06:00'/><meta property='article:modified_time' content='2018-02-13T16:00:00&#43;06:00'/><meta name='twitter:card' content='summary'>
+
+<meta name="generator" content="Hugo 0.32.4" />
+
+  <title>Becoming a DevOps Engineer - Part 1 • Josh Michielsen</title>
+  <link rel='canonical' href='https://jaymickey.github.io/blog/becoming-devops-eng-p1/'>
+  
+  
+  <link rel='icon' href='/favicon.ico'>
+<link rel='stylesheet' href='/assets/css/main.22d77285.css'>
+</head>
+
+
+<body class='page type-blog has-sidebar sidebar-sticky'>
+
+  <div class='site'>
+
+    <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
+
+<div id='sidebar' class='sidebar'>
+  <div class='container'></div>
+</div>
+
+    <div class='main'>
+
+      <nav id='main-menu' class='main-menu' aria-label='Main Menu'>
+  <div class='container'>
+    <a class='screen-reader-text' href='#content'>Skip to Content</a>
+
+<button id='sidebar-toggler' class='hamburger hamburger--arrow sidebar-toggler' type='button' aria-controls='sidebar' aria-expanded='false'>
+  <span class='screen-reader-text'>Toggle Sidebar</span>
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+    <ul><li class='item'>
+        <a href='/'>Home</a>
+      </li><li class='item'>
+        <a href='/blog/'>Blog</a>
+      </li></ul>
+  </div>
+</nav>
+
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>Josh Michielsen (Jmickey)</p><p class='desc site-desc'>DevOps Engineer @ Bankwest by day. CompSci &amp; Data Science student by night. Passionate about DevOps, Continuous Delivery, Infrastructure as Code, and Software Development</p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>Becoming a DevOps Engineer - Part 1</h1>
+      
+
+    </div>
+    
+<div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2018-02-13T16:00:00&#43;06:00'>2018, Feb 13</time>
+</span>
+
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='/authors/jaymickey'>Josh Michielsen</a></span>
+  
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+<details class='container entry-toc'>
+  <summary class='title'>
+    <span>Table of Contents</span>
+  </summary>
+  <nav id="TableOfContents">
+<ul>
+<li><a href="#becoming-a-devops-engineer">Becoming a DevOps Engineer</a>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#what-is-a-devops-engineer">What is a DevOps Engineer?</a>
+<ul>
+<li><a href="#communication-and-collaboration">Communication and Collaboration</a></li>
+<li><a href="#systems-administration">Systems Administration</a>
+<ul>
+<li><a href="#cloud-administration">Cloud Administration</a></li>
+</ul></li>
+<li><a href="#software-development-and-the-sdlc">Software Development and the SDLC</a>
+<ul>
+<li><a href="#continuous-integration-ci-continuous-delivery-cd-and-continuous-deployment-cd">Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment (CD)</a></li>
+</ul></li>
+<li><a href="#operations-automation">Operations Automation</a></li>
+<li><a href="#monitoring-and-metrics">Monitoring and Metrics</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+</details>
+
+
+  <div class='container entry-content'>
+  
+
+<h1 id="becoming-a-devops-engineer">Becoming a DevOps Engineer</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Broadly, <strong>DevOps</strong> refers to the re-modelling of IT culture to improve software delivery outcomes (e.g. speed, reliability, and stability) by fostering collaboration and shared objectives throughout all stages of the SDLC. The practical consequence of this ideological shift is the cumulation of a set of principles, practices, and tools which form the necessary foundation for DevOps to be successful within an organisation.</p>
+
+<p>The aim of this blog post isn&rsquo;t to provide yet another overview of what DevOps is and isn&rsquo;t; a quick search of Google will produce enough attempts at this to last the reader a lifetime (although <a href="https://theagileadmin.com/what-is-devops/">this</a> is my personal favourite). Nor will I be making an argument <a href="http://www.spikelab.org/blog/devops-job-title.html">for</a> or <a href="https://devops.com/double-edged-devops-job-title/">against</a> DevOps as a team or job title/role. The undeniable reality is that this is the chosen job title for companies seeking operations individuals that possess the <strong>practical</strong> skills required for a DevOps adoption to be successful (i.e. don&rsquo;t hate the player, hate the game). It is these skills and my own personal pathway to becoming a DevOps Engineer that I will be focusing on in this post.</p>
+
+<h2 id="what-is-a-devops-engineer">What is a DevOps Engineer?</h2>
+
+<p>According to <a href="http://blog.indeed.com/2016/08/18/what-are-hardest-jobs-fill-in-tech/">research by Indeed.com</a>, DevOps engineers are in high demand, and with a <a href="https://www.payscale.com/research/AU/Job=Development_Operations_(DevOps)_Engineer/Salary">median salary of over \$100k/year across Australia</a> it&rsquo;s easy to see why many IT professionals are looking for pathways into these positions. However, the same Indeed.com survey reveals DevOps engineers as some of the most difficult to recruit. In part, this is due to the lack of clear definition of the DevOps engineer role, and what skills they should possess.</p>
+
+<p>During his time as Head of Operations at Puppet Labs, Kelsey Hightower described DevOps engineers as the &ldquo;special forces&rdquo; of an organisation, going on to say:</p>
+
+<blockquote>
+<p>The DevOps engineer encapsulates depth of knowledge and years of hands on experience. You&rsquo;re battle tested. This person blends the skills of the business analyst with the technical chops to build the solution - plus they know the business well, and can look at how any issue affects the entire company.</p>
+</blockquote>
+
+<p>Now, it would be far too self-indulgent of me to say that I accurately fit this description, but it does help provide context as to the level of seniority and technical skills a DevOps engineer is expected to possess. They require both breadth and depth of knowledge spanning multiple business domains, including systems administration, software development, quality assurance, and business analysis. Now, let&rsquo;s take a look at the core skillset:</p>
+
+<h3 id="communication-and-collaboration">Communication and Collaboration</h3>
+
+<p>As DevOps culture is centred in extensive collaboration, this skill should come as no surprise. A DevOps practitioner should be able to effectively communicate and collaborate not just with the development teams they work with, but with all areas of the business relating to software delivery (e.g. Business Analysts, Products Owners/Managers, Project Managers). It is vital that DevOps engineers effectively translate business goals into practical requirements, measurements, and outcomes; and subsequently present the success or failure of these outcomes backed with empirical data.</p>
+
+<h3 id="systems-administration">Systems Administration</h3>
+
+<p>DevOps engineers require strong cross-platform operational knowledge and experience, which serves as the foundation for many of the other skills required. It also helps form much of the framework of the DevOps mindset surrounding operational complexity, scalability, stability, monitoring, security, business continuity and disaster recovery. Historically these concerns rested mostly in the hands of operations teams, while developers focused on writing code that was considered production-ready provided it worked when they pressed F5. Armed with this perspective, it becomes easier to effectively foster a DevOps culture.</p>
+
+<h4 id="cloud-administration">Cloud Administration</h4>
+
+<p>With the introduction of public and private cloud platforms (e.g. AWS, Azure, OpenStack/Shift, CloudFoundry), the way we build and manage software has changed dramatically. In addition to providing classic VM-style infrastructure, these platforms also give development and operations teams access to a host of platform services. These services remove server management overhead by taking common infrastructure services (e.g. databases, message queues, load balancing), and abstracting them via well-built APIs, while removing access to the underlying OS. Consequently, it is important for DevOps engineers to understand this shift in mindset, and gain practical skills in managing these platform services.</p>
+
+<h3 id="software-development-and-the-sdlc">Software Development and the SDLC</h3>
+
+<p>It&rsquo;s a popular misconception online and elsewhere that DevOps Engineers should be System Administrators that are able to script, with in-depth coding/programming skills left as an optional extra. However, as DevOps focuses heavily on building and delivering software, and as someone who spent the majority of their career on the operations side of the fence, I believe the opposite to be true. While automation and scripting are important components of the DevOps skillset, it is vital that those working within the SDLC have a solid understanding of the practical challenges in creating, building, testing, and releasing software. Additionally, the need to build and maintain in-house tooling has resulted in many operations teams taking on the extra role of a product team that delivers software internally.</p>
+
+<h4 id="continuous-integration-ci-continuous-delivery-cd-and-continuous-deployment-cd">Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment (CD)</h4>
+
+<p>These practices form the cornerstone of the DevOps engineers&rsquo; skillset, and it\&rsquo;s crucial to understand <a href="https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd">what each term means</a> and the tools/platforms built to achieve them. TeamCity, Jenkins, CircleCI, Octopus, and a host of other CI/CD systems generally top the list of requirements on job postings. However, it&rsquo;s not the tool itself that should be the focus here, but a solid understanding of the concepts that each of these solutions are attempting to encapsulate. Such concepts include:</p>
+
+<ul>
+<li>Distributed version control - Understanding local/remote repos, branching, pull requests, and merging should be a basic requirement.</li>
+<li>Build tooling - It\&rsquo;s important to understand the toolchains used to compile application code, examples include Gradle, Maven, make, MSBuild.</li>
+<li>Testing - Beyond just knowing the different types of tests (unit, integration, functional), an understanding of what each type of test is attempting to achieve, and more practically, how to write good tests in each instance.</li>
+<li>Package management - Both in terms of application dependencies and deployment artefacts. Additionally, versioning and artefact hosting (Nexus, Artifactory). Examples include NuGet, NPM, Maven, Tarballs, and even containers.</li>
+<li>Deployment strategies - Getting the artefact to its destination environment (test, stage, prod), in a repeatable manner, while minimising downtime and maximising feedback. Examples include reckless, blue/green, canary.</li>
+</ul>
+
+<p>While understanding these concepts doesn&rsquo;t necessarily mean you understand CI/CD/CD, they are core to achieving the goals and realising the benefits of each practice.</p>
+
+<h3 id="operations-automation">Operations Automation</h3>
+
+<p>Automation in this context goes beyond simply writing bash or PowerShell scripts to complete arbitrary tasks. The goal here is to bring value to the business by solving complex problems in simplistic ways. Distributed software systems are becoming more complex, and consequently the operational complexity to deploy, run, and scale them increases in kind. Solving these complexity problems often requires learning new concepts and tools, and adopting new platforms that enable <strong>reliable</strong>, <strong>repeatable</strong>, and <strong>testable</strong> automation. The concepts to focus on here include Infrastructure as Code, Configuration Management, Immutable Infrastructure, and Behaviour-Driven Development.</p>
+
+<h3 id="monitoring-and-metrics">Monitoring and Metrics</h3>
+
+<p>Successful adoption of DevOps requires strong feedback loops. If time-to-market, reliability, stability, performance, and customer satisfaction are the measures of DevOps success, then feedback loops are the measuring tape. Feedback loops are formed by gathering, analysing, and presenting the metrics surrounding application delivery pipelines, performance, and stability. DevOps engineers should understand the tools available to gather these metrics, and how to analyse and present them in a way that is valuable to both delivery teams and key business stakeholders.</p>
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'>
+  
+  </div>
+</footer>
+
+
+</article>
+
+
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'>
+          <section class='widget widget-social_menu sep-after'><nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='https://github.com/jaymickey' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://twitter.com/jmickey_' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='mailto:josh@jmickey.io' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+  <polyline points="22,6 12,13 2,6"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://linkedin.com/in/jmichielsen' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Linkedin account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+  <rect x="2" y="9" width="4" height="12"/>
+  <circle cx="4" cy="4" r="2"/>
+  
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section>
+
+          <div class='copyright'>
+  <p> &copy; 2018 Josh Michielsen </p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><div class='sidebar-overlay'></div><script src='/assets/js/main.89545a27.js'></script></body>
+
+</html>
+

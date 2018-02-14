@@ -9,5 +9,14 @@
 	<atom:link href="https://jaymickey.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Jmickey</title>
+      <link>https://jaymickey.github.io/authors/jmickey/</link>
+      <pubDate>Tue, 13 Feb 2018 16:00:00 +0600</pubDate>
+      
+      <guid>https://jaymickey.github.io/authors/jmickey/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
