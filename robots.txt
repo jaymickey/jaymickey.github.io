@@ -63,4 +63,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://jaymickey.github.io/sitemap.xml
+Sitemap: https://mickey.dev/sitemap.xml
